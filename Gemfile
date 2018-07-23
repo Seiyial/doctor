@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'sprockets', '3.7.2'
 gem 'rails', '5.1.6'
 gem 'sass-rails'
 gem 'coffee-rails'
