@@ -1,4 +1,4 @@
-class AddHeaderTextColorToBrand < ActiveRecord::Migration
+class AddHeaderTextColorToBrand < ActiveRecord::Migration[5.1]
   def change
     add_column :brands, :header_text_color, :string, :default => "#000000"
   end

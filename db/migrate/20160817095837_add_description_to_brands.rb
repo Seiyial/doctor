@@ -1,4 +1,4 @@
-class AddDescriptionToBrands < ActiveRecord::Migration
+class AddDescriptionToBrands < ActiveRecord::Migration[5.1]
   def change
     add_column :brands, :description, :string
   end
